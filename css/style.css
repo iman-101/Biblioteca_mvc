@@ -1,0 +1,141 @@
+body{
+	min-height: 100vh;
+}
+
+
+#contenedor_carga{
+   background-color: rgba(250,240,245,0.5);
+   position: fixed;
+   transition: all 1s ease;
+   z-index: 100000;
+   width: 100%;
+   height: 100vh;
+
+}
+#carga{
+	border:15px solid #CCC;
+	border-top-color: #F4266A;
+	border-top-style: groove;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	animation: girar 0.8s linear infinite;
+}
+
+@keyframes girar{
+
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+
+}
+.con{
+	background-color: #11075b;
+}
+.con a {
+	color : white;
+}
+.image{
+	width:100px;
+}
+.login i{
+	display: inline-block;
+	padding: 6px;
+	border: 1px solid #DDD;
+	border-radius: 50%;
+	margin: 4px;
+	color: white;
+}
+.login div:first-of-type{
+	border-right: 1px solid white;
+}
+
+
+.main-foto{
+    height: 50vh;
+	background-image: url("../img/biblioteca.jpg");
+	background-size: 100% 100%;
+	z-index: 1;
+}
+.shad{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	z-index: 2;
+}
+.main-foto .titulo{
+	z-index: 3;
+}
+
+/*****************nav************/
+.nav-reglage .con{
+	background-color: red;
+	color: white;
+}
+ .navbar-light .navbar-nav .nav-link:hover{
+ 	color: red;
+ }
+ .navbar-light .navbar-nav .nav-link.active{
+ 	color: red;
+ }
+.bt{
+	background-color: red;
+}
+
+/***************search************/
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #ff6000;
+  border-color: #ff6000;
+}
+.btn-outline-success {
+  color: #ff6000;
+  border-color: #ff6000;
+}
+.serch{
+	border-bottom: 1px solid #DDD;
+}
+
+.btn-primary {
+   color: #fff;
+  background-color: #ff6000;
+  border-color: #ff6000;
+}
+.btn-primary:hover {
+    color: #fff;
+  background-color: #ff6000;
+  border-color: #ff6000;
+}
+/**************footer*************/
+.footer img{
+	width: 100px;
+}
+
+
+.form{
+	padding:20px;
+	width: 50%;
+	margin: 30px auto;
+}
+@media (max-width: 767px) {
+  .form{
+
+	width: 100%;
+
+   }
+}
+/******imagenes de hoteles*********/
+.imagenes{
+	width: 200px;
+	border: 1px solid #DDD;
+	padding: 10px;
+	border-radius: 10px;
+}
+/*****usuario********/
+.usa{
+	background-image:url("../img/playa.jpg");
+	background-position: top top;
+}
