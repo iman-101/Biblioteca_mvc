@@ -1,5 +1,5 @@
 <?php
-class Usuario extends model{
+class Usuario extends Model{
     
     public $id=0, $usuario='', $clave='',$nombre='',$apellido1='',$apellido2,
     
