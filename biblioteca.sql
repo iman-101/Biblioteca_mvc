@@ -32,7 +32,8 @@ CREATE TABLE libros (
   idioma VARCHAR(64) NOT NULL DEFAULT 'Castellano',
   autor VARCHAR(256) NOT NULL,
   ediciones INT(11) NOT NULL DEFAULT 1,
-  edadrecomendada INT DEFAULT 0
+  edadrecomendada INT DEFAULT 0,
+  imagen varchar (512) null default null
 );
 
 -- creación de la tabla "temas_libros"
